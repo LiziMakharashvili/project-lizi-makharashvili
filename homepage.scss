@@ -1,0 +1,313 @@
+$crl :rgb(172, 8, 8);
+$crl2: rgb(84, 83, 83);
+$size:24px;
+@mixin flex1{
+  display: flex;
+align-items: center;
+flex-direction: row;}
+@mixin flex2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;}
+@mixin flex3{
+  width: auto;
+  height: 615px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include flex2;}
+body{
+  margin:0;
+  color: $crl2;}
+ .project{ 
+ display: flex;
+ flex-direction: column;
+ width: auto; 
+ & nav{
+ background-color:rgb(255, 255, 255);
+ @include flex1;
+ padding-top: 2%;
+ font-size: $size;
+ justify-content: space-around;
+ width: auto;
+  a{color: $crl2;}
+ #i1{
+  display: none;}
+  .NAV, form, .icons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  flex-wrap: nowrap; }
+p{
+  transition: background-color 0.7s ease-in ;}
+p:hover{
+ background-color:lightgrey;
+ color:#fff;
+ padding: 3px;
+ margin: 5px;
+ border-style: solid;
+ border-radius: 10px; }
+ i:hover{
+  color: lightgray;}}
+.search1{
+      @include flex1;
+      gap: 5%;}
+    .icons1{
+   @include flex1;
+   gap: 40%;
+    }
+  & input{
+      border-radius: 40px;
+      background-color: #D9D9D980;
+      border-color: #D9D9D980;
+     
+    
+  }
+  & .search1 input{
+    width: 200px;
+    height: 35px;
+  }
+ 
+
+   .Queen-image{
+    background-image: url(images-project/Queen1.webp);
+    background-position: center;
+    @include flex3;
+    color: $crl;
+    font-size: 70px;
+    flex-direction: column;
+    height: 650px;
+    font-weight: bolder;
+    } }
+    .albums{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     font-size: 36px;
+      & img{
+     height:40px ;
+     width: 20%;
+
+    } }  
+   .popular-albums{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-size: $size; 
+  img{
+    width: 243px;
+    height: 243px;}
+   .album1 , .album2 , .album3 , .album4 {
+    flex-direction: column;
+    margin-top: 7%; }
+       :hover{
+        color: #fff;
+        background-color: lightgray;
+        padding: 5px;
+        border-style: solid;
+        border-color:lightgrey ;
+        border-radius: 10%;
+       
+      }
+  }
+  .Button2{
+    display: flex;
+   justify-content: center;
+   margin-top: 60px;}
+  .button2{
+    background-color:$crl;
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    border-color:$crl; 
+     a{
+      color: #fff
+     }} 
+ .Info-Queen{
+  @include flex2;
+  flex-direction: column;
+   margin-top: 60px;
+   background-image: url(images-project/queen\ members\ 2.jpg);
+   background-size: cover;
+   color: $crl;
+   height: 650px;
+   background-position: center;
+   .button3{
+    background-color:$crl;
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    border-color:$crl; 
+    text-align: center;
+    background-color: $crl;
+    border-color: $crl;
+     a{color: #fff;}}
+    p{
+    font-size: 60px;
+    font-weight: bolder;} }
+  
+  .QUEEN{
+  height: 333px;
+  width: auto;
+  background-color:$crl;
+  @include flex2;
+  border-style: solid;
+  border-color: $crl;
+  font-size: 40px;
+  color: #fff;
+}
+footer{
+  width: auto;
+  height: auto;
+  background-color: #E4E4E4;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+   & p:hover{
+    color: gray;
+   }
+}
+.end-logo{
+  margin-left: 3%;
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+}
+.end-start{
+  display: flex;
+  width: 100%;
+ height: 10%;
+ gap: 2%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.icons2{
+  display: flex;
+  margin-top: 2%;
+ margin-right: 5%;
+  gap: 25%;
+  & i:hover{
+    color:gray;
+  }}
+.pages{
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  width: 20%;
+ margin-left: 3%;
+}
+ footer form{
+  height: 100px; 
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-end;
+  margin-right: 5%;
+    input{
+       width: 339px;
+       height: 50px;
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       font-size: 20px; }
+  button{
+       border-radius: 10px;
+       border-color: rgb(172, 8, 8);
+       height: 50px;
+       color: #fff;
+       background-color: rgb(172, 8, 8);
+       font-size: 20px;
+    } }
+ .contact-all{
+  display: flex;
+  width: 50%;
+  height: 60%;
+  justify-self: center;
+  gap: 15%;} 
+  .tel{
+    display: flex;
+    align-items: center;
+    gap:5%;}
+ .loc{
+  display: flex;
+  align-items: center;
+  gap:5%;
+ }
+ .Contact1{
+   display: flex;
+   justify-self: flex-end;
+   align-self: flex-end;
+   gap: 5%;
+   margin-left: 3%;
+   margin-bottom: 2%;
+   & i:hover{
+    color: gray;}}
+ .end-end{
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  align-items: center;
+  height: 30%;}
+ .end-center{
+  display: flex;
+  justify-content: space-between;}
+  i{
+  font-size: 25px;
+  }
+  @media screen and ( max-width: 1400px ){
+   .project .icons1{
+    display: none;}
+  }
+ @media screen and ( max-width: 768px ){
+ .popular-albums{
+ flex-direction: column;}
+ nav{
+  padding-bottom: 2%;
+ justify-content: space-between;}
+  
+ .project nav #i1{
+  display: flex;}
+
+  nav p,i, nav div, div.search1 i,nav input, nav form{
+  display: none;
+ }
+ 
+.pages,.email,footer button{
+  display: none;
+ }
+.contact-all{
+ justify-content: center;
+align-self: center;
+justify-self: center;
+}
+.end-center{
+  display: flex;
+  justify-content: space-around;
+}
+@media screen  and (max-width:426px){
+  .albums{ font-size: 24px;}
+  .QUEEN{
+    font-size: $size;
+  }
+  .icons2{ margin-right: 10%;}}
+@media screen  and (max-width: 321px){
+  .icons2{font-size: 5px;
+  gap: 2px;  }
+.project .Queen-image{
+  font-size:35px;
+  font-weight: bolder;}
+  .Contact1{
+    font-size: 16px;
+    gap: 10px;
+  }
+}
+  
+} 

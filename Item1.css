@@ -1,0 +1,516 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+  margin: 0;
+}
+
+.project {
+  color: rgb(84, 83, 83);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: auto;
+}
+.project nav {
+  background-color: rgb(255, 255, 255);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 2%;
+  font-size: 24px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: auto;
+}
+.project nav #i1 {
+  display: none;
+}
+.project nav a {
+  color: rgb(84, 83, 83);
+}
+.project nav .NAV, .project nav form, .project nav .icons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 2%;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.project nav p {
+  -webkit-transition: background-color 0.7s ease-in;
+  -o-transition: background-color 0.7s ease-in;
+  transition: background-color 0.7s ease-in;
+}
+.project nav p:hover {
+  background-color: lightgrey;
+  border-color: lightgrey;
+  color: #fff;
+  padding: 3px;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.project nav i:hover {
+  color: lightgray;
+}
+.project .search1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 5%;
+}
+.project .icons1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 40%;
+}
+.project input {
+  border-radius: 40px;
+  background-color: rgba(217, 217, 217, 0.5019607843);
+  border-color: rgba(217, 217, 217, 0.5019607843);
+}
+.project .search1 input {
+  width: 200px;
+  height: 35px;
+}
+.project .Queen-image {
+  background-image: url(images-project/queen4.jpg);
+  background-position: center;
+  width: auto;
+  height: 615px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: #c9c9c9;
+  font-size: 85px;
+  font-weight: bolder;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 650px;
+}
+
+.product1 {
+  margin-top: 5%;
+  font-size: 24px;
+  margin-left: 3%;
+}
+
+.us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 36px;
+}
+.us img {
+  height: 40px;
+  width: 20%;
+}
+
+.Items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 3%;
+  width: auto;
+  height: 70%;
+}
+
+.Item1 {
+  width: 50%;
+  height: 800px;
+}
+.Item1 .image1 {
+  width: 600px;
+  height: 600px;
+}
+.Item1 .otheritems {
+  gap: 2%;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.Item1 .image2, .Item1 .image3 {
+  width: 200px;
+  height: 200px;
+}
+
+.Description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2%;
+  margin-left: 5%;
+  width: 50%;
+  height: 100%;
+}
+.Description .header1 {
+  font-size: 300% !important;
+}
+.Description .p1 {
+  font-size: 250%;
+}
+.Description .p2 {
+  font-size: 180%;
+}
+.Description .p3, .Description .p4 {
+  font-size: 200%;
+}
+.Description .Quantity {
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-style: solid;
+  width: 15%;
+  height: 8%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 200%;
+  margin-bottom: 3%;
+}
+.Description .buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3%;
+}
+.Description i {
+  font-size: 40px;
+}
+.Description button {
+  border-radius: 20px;
+  width: 40%;
+  height: 70px;
+  font-size: 36px;
+  background-color: rgb(172, 8, 8);
+  border-color: rgb(172, 8, 8);
+  color: #fff;
+}
+
+footer {
+  width: auto;
+  height: auto;
+  background-color: #E4E4E4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 24px;
+  margin-top: 40px;
+}
+footer p:hover {
+  color: gray;
+}
+
+.end-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+  margin-top: 2%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.end-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 10%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icons2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 5%;
+  gap: 8%;
+}
+.icons2 :hover {
+  color: gray;
+}
+
+.pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 30%;
+  width: 20%;
+  margin-left: 3%;
+}
+
+footer form {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-end;
+  margin-right: 5%;
+}
+footer form input {
+  width: 339px;
+  height: 50px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+}
+footer form button {
+  border-radius: 10px;
+  border-color: rgb(172, 8, 8);
+  height: 50px;
+  color: #fff;
+  background-color: rgb(172, 8, 8);
+  font-size: 20px;
+}
+
+.contact-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  height: 60%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  gap: 15%;
+}
+
+.tel, .loc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  gap: 5px;
+}
+.tel i:hover, .loc i:hover {
+  color: gray;
+}
+
+.Contact1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  gap: 5%;
+  margin-left: 3%;
+  margin-bottom: 2%;
+}
+
+.end-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30%;
+}
+
+.end-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+i {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 1400px) {
+  .buy button {
+    font-size: 24px;
+  }
+  .project .icons1 {
+    display: none;
+  }
+  .row1, .row2, .row3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .row1 p, .row2 p, .row3 p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1400px) and (max-width: 768px) {
+  .project nav #i1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav {
+    padding-bottom: 2%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  nav p, i, nav div, div.search1 i, nav input, nav form {
+    display: none;
+  }
+  .pages, .email, footer button {
+    display: none;
+  }
+  .contact-all {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+  .end-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .Item1 .image1 {
+    width: 350px;
+    height: 350px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .Item1 .image2 {
+    width: 150px;
+    height: 150px;
+  }
+  .Item1 .image3 {
+    width: 150px;
+    height: 150px;
+  }
+  .Description button {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1400px) and (max-width: 426px) {
+  .project .Queen-image {
+    font-size: 28px;
+  }
+  .Items {
+    display: block;
+  }
+  .Items .Item1 {
+    width: auto;
+    height: 30%;
+    margin-bottom: 2%;
+  }
+  .Items .Item1 .image1 {
+    width: 310px;
+    height: 310px;
+  }
+  .Items .Description {
+    height: 60%;
+    width: auto;
+    margin-left: 0;
+  }
+}

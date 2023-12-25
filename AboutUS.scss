@@ -1,0 +1,302 @@
+$crl :rgb(172, 8, 8);
+$crl2: rgb(84, 83, 83);
+$size:24px;
+@mixin flex1{
+  display: flex;
+align-items: center;
+flex-direction: row;}
+@mixin flex2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;}
+@mixin flex3{
+  width: auto;
+  height: 615px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include flex2;}
+body{
+  margin:0;}
+ .project{
+ color: $crl2;
+ display: flex;
+ flex-direction: column;
+ width: auto;
+ & nav {
+ background-color:rgb(255, 255, 255);
+ @include flex1;
+ padding-top: 2%;
+ font-size: $size;
+ justify-content: space-around;
+ width: auto;
+  .NAV, form, .icons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  flex-wrap: nowrap; }
+  a{color: $crl2;}
+  #i1{
+   display: none;}
+   .NAV, form, .icons{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   gap: 2%;
+   flex-wrap: nowrap; }
+ p{
+  transition: background-color 0.7s ease-in ;
+ }
+ p:hover{
+background-color:lightgrey;
+color:#fff;
+padding: 3px;
+margin: 5px;
+border-style: solid;
+border-radius: 10px;}
+i:hover{
+  color: lightgray;}}
+ .search1{
+      @include flex1;
+      gap: 5%;}
+    .icons1{
+   @include flex1;
+   gap: 40%;}
+  & input{
+      border-radius: 40px;
+      background-color: #D9D9D980;
+      border-color: #D9D9D980; 
+  }
+  & .search1 input{
+    width: 200px;
+    height: 35px;
+  }
+   .Queen-image{
+    background-image: url(images-project/queen4.jpg);
+    background-position: center;
+    @include flex3;
+    color: #c9c9c9;
+    font-size: 85px;
+    font-weight: bolder;
+    flex-direction: column;
+    height: 650px; } }
+    .us{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+       & img{
+      height:40px;
+      width: 20%; } }  
+ .allthings{
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 30px; 
+  margin-top: 5%;
+  &  .text1,.text2,.text3,.text4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 600px;
+    gap:3%;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #fff;}
+    .text1:hover{
+     background-color: $crl2;
+     border-color: $crl2;
+     padding: 3px;
+     color: #fff;}
+   .text2:hover{
+    background-color: $crl2;
+    border-color: $crl2;
+    padding: 3px;
+    color: #fff;}
+   .text3:hover{
+    background-color: $crl2;
+    border-color: $crl2;
+    padding: 3px;
+    color: #fff;}
+   .text4:hover{
+    background-color: $crl2;
+    border-color: $crl2;
+    padding: 3px;
+    color: #fff;}
+  & .Circle1,.Circle2,.Circle3,.Circle4 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 250px;
+ height: 250px;
+ background-color: #adacac;
+ border-color: #adacac;
+ border-style: solid;
+ border-radius: 50%;
+ font-weight: bolder;
+ font-size: 26px; 
+}}
+.main-end{
+  margin-top: 5%;
+  width: auto;
+ height: max-content;
+  background-color: rgb(38, 38, 38);
+}
+.Queen-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+ height: max-content;
+  background-image: url(images-project/queenHalfBackground.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 26px;
+  color: #fff;
+  p{
+    margin: 2%;}}
+    footer{
+      width: auto;
+      height: auto;
+      background-color: #E4E4E4;
+      display: flex;
+      flex-direction: column;
+      font-size: 24px;
+      p:hover{
+        color: gray;
+      }
+    }
+    .end-logo{
+      margin-left: 3%;
+      margin-top: 2%;
+     display: flex;
+     align-items: center;
+    }
+    .end-start{
+      display: flex;
+      width: 100%;
+    height: 10%;
+    gap:2%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .icons2{
+      display: flex;
+      margin-top: 2%;
+     margin-right: 5%;
+      gap: 25%;
+      i:hover{
+        color: gray;
+      }
+      }
+    .pages{
+      display: flex;
+      flex-direction: column;
+      height: 30%;
+      width: 20%;
+     margin-left: 3%;
+    }
+    
+     footer form{
+      height: 100px; 
+      display: flex;
+      align-self: flex-end;
+      justify-self: flex-end;
+      margin-right: 5%;
+        input{
+           width: 339px;
+           height: 50px;
+           border-radius: 10px;
+           display: flex;
+           flex-direction: column;
+           font-size: 20px; }
+      button{
+           border-radius: 10px;
+           border-color: rgb(172, 8, 8);
+           height: 50px;
+           color: #fff;
+           background-color: rgb(172, 8, 8);
+           font-size: 20px;
+        } }
+     .contact-all{
+      display: flex;
+      width: 50%;
+      height: 60%;
+      justify-self: center;
+      gap: 15%;
+    
+      } 
+    .tel{
+    display: flex; 
+    align-items: center;
+  gap:5%}
+  .loc{
+    display: flex;
+    align-items: center;
+  gap:5%
+  }
+     .Contact1{
+       display: flex;
+       justify-self: flex-end;
+       align-self: flex-end;
+       gap: 5%;
+       margin-left: 3%;
+       margin-bottom: 2%;
+       & i:hover{
+        color: gray; }}
+     .end-end{
+      display: flex;
+      justify-content: space-between;
+      width: auto;
+      align-items: center;
+      height: 30%;}
+     .end-center{
+      display: flex;
+      justify-content: space-between;}
+      i{
+      font-size: 25px;}
+  
+     
+      @media screen  and (max-width: 1400px){
+       .project .icons1{
+          display: none;}
+         .allthings{
+      flex-direction: column;
+      align-items: center;
+       & p{
+         font-size: 14px;}}  }
+       @media screen and ( max-width: 768px ){
+      
+      nav{
+        padding-bottom: 2%;
+       justify-content: space-between;}
+        
+       .project nav #i1{
+        display: flex;}
+      
+        nav p,i, nav div, div.search1 i,nav input, nav form{
+        display: none; } 
+      .pages,.email,footer button{
+        display: none;}
+      .contact-all{
+       justify-content: center;
+      align-self: center;
+      justify-self: center; }
+      .end-center{
+        display: flex;
+        justify-content: space-around;}    
+     @media screen and (max-width:426px){
+     .icons2{
+      margin-right: 15%;
+      gap: 5px; }
+      .Queen-text{width: 80%;}}} 
+      
+
+

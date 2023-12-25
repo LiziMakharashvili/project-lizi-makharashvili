@@ -1,0 +1,294 @@
+$crl :rgb(172, 8, 8);
+$crl2: rgb(84, 83, 83);
+$size:24px;
+@mixin flex1{
+  display: flex;
+align-items: center;
+flex-direction: row;}
+@mixin flex2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;}
+@mixin flex3{
+  width: auto;
+  height: 615px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include flex2;}
+body{
+  margin:0;}
+ .project{
+ color: $crl2;
+ display: flex;
+ flex-direction: column;
+ width: auto;
+
+ & nav {
+  #i1{
+    display: none;
+   }
+ background-color:rgb(255, 255, 255);
+ @include flex1;
+ padding-top: 2%;
+ font-size: $size;
+justify-content: space-around;
+ width: auto;
+ a{color: $crl2;}
+  .NAV, form, .icons{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  flex-wrap: nowrap;}
+  p{ transition: background-color 0.7s ease-in;}  
+p:hover{ 
+background-color:lightgrey;
+border-color: lightgrey;
+color: #fff;
+padding: 3px;
+margin: 5px;
+border-style: solid;
+border-radius: 10px ;} 
+ i:hover{
+  color: lightgray;}}
+ .search1{
+      @include flex1;
+      gap: 5%;}
+    .icons1{
+   @include flex1;
+   gap: 40%;}
+  & input{
+      border-radius: 40px;
+      background-color: #D9D9D980;
+      border-color: #D9D9D980;  }
+  & .search1 input{
+    width: 200px;
+    height: 35px;}
+   .Queen-image{
+    background-image: url(images-project/queen4.jpg);
+    background-position: center;
+    @include flex3;
+    color: #c9c9c9;
+    font-size: 85px;
+    font-weight: bolder;
+    flex-direction: column;
+    height: 650px; } }
+    .product1{
+      margin-top: 5%;
+      font-size: $size;
+      margin-left: 3%;}
+    .us{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+       & img{
+      height:40px;
+      width: 20%; } } 
+      .Items{
+        display: flex;
+        margin-top: 5%;
+        margin-left: 3%;
+        width: auto;
+        height: 70%;} 
+      .Item1{
+        width: 50%;
+        height:  800px;
+        .image1{
+          width:600px;
+          height:600px;}
+        .otheritems{
+          gap: 2%;
+          margin-top: 15px;
+          display: flex;}
+        .image2,.image3{
+          width: 200px;
+          height: 200px;}}
+  .Description{
+    display: flex;
+    flex-direction: column;
+     gap: 2%;
+      margin-left: 5%;
+      width: 50%;
+     height: 100%;  
+    .header1{
+      font-size: 300% !important;}
+    .p1{
+      font-size: 250%; }
+    .p2{
+      font-size: 180%; }
+    .p3, .p4{
+   font-size: 200%;}
+.Quantity{
+  border-radius: 5px;
+  display: flex;
+  border-style: solid;
+  width: 15%;
+  height: 8%;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+  margin-bottom: 3%;}
+  .buy{
+    display: flex;
+  align-items: center;
+   gap: 3%;}
+    i{
+      font-size: 40px;}
+    button{
+      border-radius: 20px;
+      width: 40%;
+      height: 70px;
+      font-size: 36px;
+      background-color: $crl;
+      border-color: $crl;
+      color: #fff;}}
+    footer{
+      width: auto;
+      height: auto;
+      background-color: #E4E4E4;
+      display: flex;
+      flex-direction: column;
+      font-size: 24px;
+      margin-top: 40px;
+     p:hover{color: gray;}}
+    .end-logo{
+      display: flex;
+      margin-left: 3%;
+    margin-top: 2%;
+  align-items: center;}
+    .end-start{
+      display: flex;
+      width: 100%;
+      height: 10%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;  }
+    .icons2{
+      display: flex;
+     margin-right: 5%;
+      gap: 8%; 
+       & :hover{ color: gray;}}
+    .pages{
+      display: flex;
+      flex-direction: column;
+      height: 30%;
+      width: 20%;
+     margin-left: 3%;}
+     footer form{
+      height: 100px; 
+      display: flex;
+      align-self: flex-end;
+      justify-self: flex-end;
+      margin-right: 5%;
+        input{
+           width: 339px;
+           height: 50px;
+           border-radius: 10px;
+           display: flex;
+           flex-direction: column;
+           font-size: 20px; }
+      button{
+           border-radius: 10px;
+           border-color: rgb(172, 8, 8);
+           height: 50px;
+           color: #fff;
+           background-color: rgb(172, 8, 8);
+           font-size: 20px; } }
+     .contact-all{
+      display: flex;
+      width: 50%;
+      height: 60%;
+      justify-self: center;
+      gap: 15%;} 
+     .tel, .loc{
+     display: flex;
+     flex-wrap: nowrap;
+     gap: 5px;
+      i:hover{
+        color: gray;
+      }}
+     .Contact1{
+       display: flex;
+       justify-self: flex-end;
+       align-self: flex-end;
+       gap: 5%;
+       margin-left: 3%;
+       margin-bottom: 2%;}
+     .end-end{
+      display: flex;
+      justify-content: space-between;
+      width: auto;
+      align-items: center;
+      height: 30%;}
+     .end-center{
+      display: flex;
+      justify-content: space-between;}
+      i{ 
+      font-size: 25px;}
+      @media screen and ( max-width: 1400px ){
+  .buy button{ font-size: $size;}
+        .project .icons1{
+         display: none;}
+        .row1,.row2,.row3{
+      flex-direction: column;
+      align-items: center;
+       & p{
+         font-size: 14px;}}
+      @media screen and ( max-width: 768px ){
+      .project nav #i1{
+          display: flex;}
+      nav{
+       padding-bottom: 2%;
+      justify-content: space-between;}
+     nav p,i, nav div, div.search1 i,nav input, nav form{
+       display: none;}
+     .pages,.email,footer button{
+       display: none;}
+     .contact-all{
+      justify-content: center;
+     align-self: center;
+     justify-self: center; }
+     .end-center{
+       display: flex;
+       justify-content: space-around; } 
+     .Item1{
+      .image1{
+        width: 350px;
+        height: 350px;
+      align-self: center;}
+     .image2{
+      width: 150px;
+      height: 150px; }
+    .image3{
+      width: 150px;
+      height: 150px; }}
+    .Description{
+    button{
+      font-size: 16px; } } } 
+    @media screen and ( max-width: 426px) {
+      .project  .Queen-image{
+        font-size: 28px;
+      }
+      .Items{
+       display: block;
+       .Item1{
+          .image1{
+            width: 310px;
+            height: 310px;}
+        width: auto;
+        height: 30%;
+        margin-bottom: 2%;}
+       .Description{
+        height: 60%;
+        width: auto;
+        margin-left: 0;
+       }}}}
+
+      
+
+
+
+
+      
